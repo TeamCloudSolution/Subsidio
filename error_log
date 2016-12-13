@@ -1,0 +1,67 @@
+[12-Dec-2016 07:15:28 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home4/sperey/public_html/cloudsolution/restablecer.php on line 5
+[12-Dec-2016 07:15:28 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/sperey/public_html/cloudsolution/restablecer.php on line 8
+[12-Dec-2016 07:15:28 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/sperey/public_html/cloudsolution/restablecer.php:5) in /home4/sperey/public_html/cloudsolution/restablecer.php on line 49
+[12-Dec-2016 07:18:44 America/Chicago] PHP Warning:  include_once(footer): failed to open stream: No such file or directory in /home4/sperey/public_html/cloudsolution/cambiarpassword.php on line 56
+[12-Dec-2016 07:18:44 America/Chicago] PHP Warning:  include_once(): Failed opening 'footer' for inclusion (include_path='.:/opt/php56/lib/php') in /home4/sperey/public_html/cloudsolution/cambiarpassword.php on line 56
+[12-Dec-2016 07:55:19 America/Chicago] PHP Fatal error:  Class 'Facebook\Facebook' not found in /home4/sperey/public_html/cloudsolution/login.php on line 13
+[12-Dec-2016 07:55:39 America/Chicago] PHP Fatal error:  Class 'Facebook\Facebook' not found in /home4/sperey/public_html/cloudsolution/login.php on line 13
+[12-Dec-2016 08:02:12 America/Chicago] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Sessions are not active. Please make sure session_start() is at the top of your script.' in /home4/sperey/public_html/cloudsolution/Facebook/PersistentData/FacebookSessionPersistentDataHandler.php:50
+Stack trace:
+#0 /home4/sperey/public_html/cloudsolution/Facebook/Helpers/FacebookRedirectLoginHelper.php(80): Facebook\PersistentData\FacebookSessionPersistentDataHandler->__construct()
+#1 /home4/sperey/public_html/cloudsolution/Facebook/Facebook.php(323): Facebook\Helpers\FacebookRedirectLoginHelper->__construct(Object(Facebook\Authentication\OAuth2Client), NULL, NULL, NULL)
+#2 /home4/sperey/public_html/cloudsolution/login.php(20): Facebook\Facebook->getRedirectLoginHelper()
+#3 /home4/sperey/public_html/cloudsolution/index.php(7): include_once('/home4/sperey/p...')
+#4 {main}
+  thrown in /home4/sperey/public_html/cloudsolution/Facebook/PersistentData/FacebookSessionPersistentDataHandler.php on line 50
+[12-Dec-2016 08:05:15 America/Chicago] PHP Fatal error:  Class 'Facebook\Facebook' not found in /home4/sperey/public_html/cloudsolution/login.php on line 13
+[12-Dec-2016 08:13:55 America/Chicago] PHP Fatal error:  Class 'Facebook\Facebook' not found in /home4/sperey/public_html/cloudsolution/fb-callback.php on line 3
+[12-Dec-2016 08:16:33 America/Chicago] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Access token metadata contains unexpected app ID.' in /home4/sperey/public_html/cloudsolution/Facebook/Authentication/AccessTokenMetadata.php:329
+Stack trace:
+#0 /home4/sperey/public_html/cloudsolution/fb-callback.php(53): Facebook\Authentication\AccessTokenMetadata->validateAppId(167501017058971)
+#1 {main}
+  thrown in /home4/sperey/public_html/cloudsolution/Facebook/Authentication/AccessTokenMetadata.php on line 329
+[12-Dec-2016 08:17:47 America/Chicago] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Access token metadata contains unexpected app ID.' in /home4/sperey/public_html/cloudsolution/Facebook/Authentication/AccessTokenMetadata.php:329
+Stack trace:
+#0 /home4/sperey/public_html/cloudsolution/fb-callback.php(53): Facebook\Authentication\AccessTokenMetadata->validateAppId(167501017058971)
+#1 {main}
+  thrown in /home4/sperey/public_html/cloudsolution/Facebook/Authentication/AccessTokenMetadata.php on line 329
+[12-Dec-2016 08:18:40 America/Chicago] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Access token metadata contains unexpected app ID.' in /home4/sperey/public_html/cloudsolution/Facebook/Authentication/AccessTokenMetadata.php:329
+Stack trace:
+#0 /home4/sperey/public_html/cloudsolution/fb-callback.php(53): Facebook\Authentication\AccessTokenMetadata->validateAppId(167501017058971)
+#1 {main}
+  thrown in /home4/sperey/public_html/cloudsolution/Facebook/Authentication/AccessTokenMetadata.php on line 329
+[12-Dec-2016 08:39:24 America/Chicago] PHP Fatal error:  Call to undefined function redirect() in /home4/sperey/public_html/cloudsolution/fb-callback.php on line 41
+[12-Dec-2016 08:47:40 America/Chicago] PHP Fatal error:  Call to undefined method Facebook\Facebook::getAccessToken() in /home4/sperey/public_html/cloudsolution/index.php on line 14
+[12-Dec-2016 08:49:37 America/Chicago] PHP Fatal error:  Call to undefined method Facebook\Facebook::getAccessToken() in /home4/sperey/public_html/cloudsolution/index.php on line 14
+[12-Dec-2016 08:52:13 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/sperey/public_html/cloudsolution/header.php:21) in /home4/sperey/public_html/cloudsolution/index.php on line 18
+[12-Dec-2016 08:52:18 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/sperey/public_html/cloudsolution/header.php:21) in /home4/sperey/public_html/cloudsolution/index.php on line 18
+[12-Dec-2016 08:52:18 America/Chicago] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Sessions are not active. Please make sure session_start() is at the top of your script.' in /home4/sperey/public_html/cloudsolution/Facebook/PersistentData/FacebookSessionPersistentDataHandler.php:50
+Stack trace:
+#0 /home4/sperey/public_html/cloudsolution/Facebook/Helpers/FacebookRedirectLoginHelper.php(80): Facebook\PersistentData\FacebookSessionPersistentDataHandler->__construct()
+#1 /home4/sperey/public_html/cloudsolution/Facebook/Facebook.php(323): Facebook\Helpers\FacebookRedirectLoginHelper->__construct(Object(Facebook\Authentication\OAuth2Client), NULL, NULL, NULL)
+#2 /home4/sperey/public_html/cloudsolution/login.php(20): Facebook\Facebook->getRedirectLoginHelper()
+#3 /home4/sperey/public_html/cloudsolution/index.php(22): include_once('/home4/sperey/p...')
+#4 {main}
+  thrown in /home4/sperey/public_html/cloudsolution/Facebook/PersistentData/FacebookSessionPersistentDataHandler.php on line 50
+[12-Dec-2016 08:53:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Sessions are not active. Please make sure session_start() is at the top of your script.' in /home4/sperey/public_html/cloudsolution/Facebook/PersistentData/FacebookSessionPersistentDataHandler.php:50
+Stack trace:
+#0 /home4/sperey/public_html/cloudsolution/Facebook/Helpers/FacebookRedirectLoginHelper.php(80): Facebook\PersistentData\FacebookSessionPersistentDataHandler->__construct()
+#1 /home4/sperey/public_html/cloudsolution/Facebook/Facebook.php(323): Facebook\Helpers\FacebookRedirectLoginHelper->__construct(Object(Facebook\Authentication\OAuth2Client), NULL, NULL, NULL)
+#2 /home4/sperey/public_html/cloudsolution/login.php(20): Facebook\Facebook->getRedirectLoginHelper()
+#3 /home4/sperey/public_html/cloudsolution/index.php(21): include_once('/home4/sperey/p...')
+#4 {main}
+  thrown in /home4/sperey/public_html/cloudsolution/Facebook/PersistentData/FacebookSessionPersistentDataHandler.php on line 50
+[12-Dec-2016 08:55:07 America/Chicago] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Sessions are not active. Please make sure session_start() is at the top of your script.' in /home4/sperey/public_html/cloudsolution/Facebook/PersistentData/FacebookSessionPersistentDataHandler.php:50
+Stack trace:
+#0 /home4/sperey/public_html/cloudsolution/Facebook/Helpers/FacebookRedirectLoginHelper.php(80): Facebook\PersistentData\FacebookSessionPersistentDataHandler->__construct()
+#1 /home4/sperey/public_html/cloudsolution/Facebook/Facebook.php(323): Facebook\Helpers\FacebookRedirectLoginHelper->__construct(Object(Facebook\Authentication\OAuth2Client), NULL, NULL, NULL)
+#2 /home4/sperey/public_html/cloudsolution/index.php(11): Facebook\Facebook->getRedirectLoginHelper()
+#3 {main}
+  thrown in /home4/sperey/public_html/cloudsolution/Facebook/PersistentData/FacebookSessionPersistentDataHandler.php on line 50
+[12-Dec-2016 08:55:18 America/Chicago] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Sessions are not active. Please make sure session_start() is at the top of your script.' in /home4/sperey/public_html/cloudsolution/Facebook/PersistentData/FacebookSessionPersistentDataHandler.php:50
+Stack trace:
+#0 /home4/sperey/public_html/cloudsolution/Facebook/Helpers/FacebookRedirectLoginHelper.php(80): Facebook\PersistentData\FacebookSessionPersistentDataHandler->__construct()
+#1 /home4/sperey/public_html/cloudsolution/Facebook/Facebook.php(323): Facebook\Helpers\FacebookRedirectLoginHelper->__construct(Object(Facebook\Authentication\OAuth2Client), NULL, NULL, NULL)
+#2 /home4/sperey/public_html/cloudsolution/index.php(11): Facebook\Facebook->getRedirectLoginHelper()
+#3 {main}
+  thrown in /home4/sperey/public_html/cloudsolution/Facebook/PersistentData/FacebookSessionPersistentDataHandler.php on line 50
